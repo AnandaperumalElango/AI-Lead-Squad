@@ -15,4 +15,6 @@
 ```bash
 git clone <your_repo_url>
 cd AI-LeadSquad
-pip install -r requirements.txt
+pip install -r requirements.txt 
+then run the below command in terminal 
+streamlit run app.py
