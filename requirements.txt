@@ -1,0 +1,10 @@
+streamlit
+pandas
+scikit-learn
+joblib
+beautifulsoup4
+selenium
+fuzzywuzzy
+python-Levenshtein
+beautifulsoup4
+url-parser
