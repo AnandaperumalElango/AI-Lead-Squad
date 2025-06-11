@@ -6,8 +6,8 @@ from utils import is_valid_email, deduplicate_leads
 import joblib
 
 # Load ML model and vectorizer
-model = joblib.load("model/lead_classifier.pkl")
-vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
+model = joblib.load("lead_classifier.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.set_page_config(page_title="AI-LeadSquad", layout="wide")
 st.title("🚀 AI-Powered B2B Lead Generation Tool")
